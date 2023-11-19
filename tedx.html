@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <!-- left  -->
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon" alt="#">
+            <img src="images/youtube.png" class="logo" alt="#">
+        </div>
+        <!-- middle  -->
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Tìm Kiếm">
+                <img src="images/search.png">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon">
+        </div>
+        <!-- right -->
+        <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="#">
+            <img src="images/more.png" alt="#">
+            <img src="images/notification.png" alt="#">
+            <img src="images/Jack.png" alt="#" class="user-icon">
+
+        </div>
+    </nav>  
+
+    <div class="container playcontainer">
+        <div class="row">
+            <div class="play-video">
+                <video controls autoplay>
+                    <source src="videos/howtopractice.mp4" type="video/mp4">
+                </video>
+                <div class="tags">
+                    <a href="">#coding </a> <a href="">#coding </a> <a href="">#coding </a> <a href="">#coding </a>
+                </div>
+
+                <h3>Làm sao để luyện tập hiệu quả bất cứ điều gì</h3>
+                <div class="play-video-info">
+                    <p>4.5m Views &bull; 1 hour ago</p>
+                    <div>
+                        <a href=""><img src="images/like.png" alt="">1232</a>
+                        <a href=""><img src="images/dislike.png" alt=""></a>
+                        <a href=""><img src="images/share.png" alt="">Share</a>
+                        <a href=""><img src="images/save.png" alt="">Save</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="publisher">
+                    <img src="./images/channeltedx.jpg">
+                    <div>
+                        <p>Tedx talk</p>
+                        <span>344k Subscriber</span>
+                    </div>
+
+                    <button type="button"> Subscribe</button>
+                </div>
+                <div class="vid-description">
+                    <!-- <div class="description-section" id="descriptionSection">
+                        <h2>Description</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nullam et tellus id elit bibendum pretium. Sed eget ligula ut elit ullamcorper
+                            convallis a et libero. In vitae tortor vel lectus dapibus tristique non eu velit.
+                           
+                        </p>
+                        <button onclick="toggleDescription()">Xem thêm</button>
+                    </div> -->
+                   
+                    <hr>
+                    <br>
+
+                    <h4> 2 Comments</h4>
+                    <div class="add-comment">
+                        <img src="images/Jack.png">
+                        <input type="text" placeholder="comment">
+                    </div>
+                    <div class="old-comment">
+                        <img src="./images/Jack.png">
+                        <div>
+                            <h3>Nicoson <span> 2 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque numquam reiciendis eum voluptatem repudiandae corporis impedit maxime provident, incidunt, exercitationem ducimus quaerat beatae aperiam nihil optio. Non quidem voluptates unde!</p>
+                            <div class="comment-action">
+                                <img src="images/like.png" >
+                                <span>3000</span>
+                                <img src="images/dislike.png" >
+                                <span>2</span>
+                                <span>reply </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="./images/Jack.png">
+                        <div>
+                            <h3>Nicoson <span> 3 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque numquam reiciendis eum voluptatem repudiandae corporis impedit maxime provident, incidunt, exercitationem ducimus quaerat beatae aperiam nihil optio. Non quidem voluptates unde!</p>
+                            <div class="comment-action">
+                                <img src="images/like.png" >
+                                <span>3000</span>
+                                <img src="images/dislike.png" >
+                                <span>2</span>
+                                <span>reply </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right side  -->
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/billgate.png" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">How Bill Gates reads books</a>
+                        <p>Gate Note</p>
+                        <p>1M Views</p>
+                    </div>
+                </div>
+              
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumnailjeffbezos.png" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">The exact moment Jeff Bezos decided not to become a physicist</a>
+                        <p>Just andy</p>
+                        <p>140k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumnailjoma.png" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">If American Psycho were about Programmers - jomma</a>
+                        <p>Jomma tech</p>
+                        <p>500k views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumnailmm.jpg" alt=""></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">It's time to change</a>
+                        <p>Mark Manson</p>
+                        <p>129.203 Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumnailcompare.png" alt=""></a>
+                    <div class="vid-info">
+                        <a href="compare.html">"Apple's 8GB RAM on M3 MacBook Pro is Analogous to 16GB on PCs"</a>
+                        <p>wholesomsimon</p>
+                        <p>34k Views </p>
+                    </div>
+                </div>
+               
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail1.png" alt=""></a>
+                    <div class="vid-info">
+                        <a href="">The best country in the world</a>
+                        <p>Data Nash</p>
+                        <p>234k Views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
